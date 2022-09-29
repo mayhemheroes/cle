@@ -1,8 +1,6 @@
 project: cle
 image: ghcr.io/capuanob/cle-fuzz
 target: loader-fuzz
-testsuite:
-    - file://mayhem/testsuite
 
 cmds:
   - cmd: /fuzz_loader.py
